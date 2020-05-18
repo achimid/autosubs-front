@@ -3,14 +3,14 @@
   "manifest_version": 2,
   "name": "HorribleSubs Community",
   "description": "Provides automatically translated subtitles for episodes. Unofficial plugin made by fan.",
-  "version": "0.4",
+  "version": "1.0",
 
   "icons": {
     "48": "icons/icon.png"
   },
 
   "permissions": [
-    "https://horriblesubs-community.herokuapp.com/*"
+    "https://autosubs-api-01.herokuapp.com/*"
  ],
 
 

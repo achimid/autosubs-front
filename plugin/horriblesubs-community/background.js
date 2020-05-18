@@ -1,6 +1,4 @@
-const SERVER_URL = 'https://horriblesubs-community.herokuapp.com'
-// const SERVER_URL = 'http://localhost:9002'
-// const SERVER_URL = ''
+const SERVER_URL = 'https://autosubs-api-01.herokuapp.com'
 const SUBTITLES_URL = SERVER_URL + '/api/v1/subtitle'
 const RECEIVE_SUBTITLES_URL = SERVER_URL + '/api/v1/subtitle/receive'
 
@@ -42,7 +40,6 @@ const getSubtitlesFromAPI = async () => {
 }
 
 const loadSubtitles = (body) => () => {
-    console.log(body)
     const subtitleGrouped = groupBy(body.subtitles, (s) => s.episode)
     const divsEpisodes = [...document.querySelectorAll('.rls-links-container')]
 
@@ -86,8 +83,6 @@ const receiveNewUrls = async () => {
 
 const sendUrlToReceive = (body) => fetch(RECEIVE_SUBTITLES_URL, 
     { method: 'POST', body: JSON.stringify(body), headers: { 'Content-Type': 'application/json' }})
-    .then(console.log)
-    .catch(console.error)
 
 
 function groupBy(xs, f) {
