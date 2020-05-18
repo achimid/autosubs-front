@@ -74,7 +74,7 @@ const getTitlesFromAPI = () => getLastTitlesReleasedAPI(getQueryParams()).then(j
 
 //  ==================== INIT =================
 getTitlesFromAPI().then(() => console.log('Titles loaded'))
-$language.value = localStorage.getItem('language')
+$language.value = localStorage.getItem('language') || (window.navigator.userLanguage || window.navigator.language).split('-')[0]
 
 
 
