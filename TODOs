@@ -5,7 +5,7 @@
 # Modificar a maneira com que as sugestões estão armazenadas e manipuladas, verificar a possibilidade de extrair para um modelo
 # Trocar o nome do botão receber notificações (deve ter algum feedback quando clicado e quando ja tiver cadastrado)
 # Comprar dominio
-# Configurar Analitics e o Search
+
 # Linkar as outras aplicações para esse site
 
 # Melhorar decrição do plugin, fazer uma explicação melhor
@@ -13,3 +13,7 @@
 # Corrigir problema do tamanho da lagenda
 # Gerar uma pagina ou algumas statisticas de quantas legendas e sugestões estão sendo feitas por minuto....
 # Tentar fazer aquele client, para que seja possivel baixar os animes automaticamente e selecionar o que você quer baixar, e ele usa o torrent e build a legenda depois de baixado.
+
+# Corrigir problema do tamanho da lagenda, no front, quando o dialogo é muito grande o layout de sugestão fica quebrado
+
+# Configurar Analitics e o Search
