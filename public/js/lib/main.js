@@ -181,8 +181,8 @@
 
 // ===============  CONSTANTS =============== 
 
-	const API = '/api/v1'
-	// const API = 'https://horriblesubs-community.herokuapp.com/api/v1'
+	// const API = '/api/v1'
+	const API = 'https://autosubs-api-01.herokuapp.com'
 	// const API = 'http://localhost:9002/api/v1'
 
 
