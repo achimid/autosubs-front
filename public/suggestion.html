@@ -24,15 +24,14 @@
   	
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index">AutoSubs Fansubs</a>
+	      <a class="navbar-brand" href="/">AutoSubs Fansubs</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item"><a href="index" class="nav-link"><span>Suggestion</span></a></li>
-            <li class="nav-item"><a href="titles" class="nav-link"><span>Titles</span></a></li>
+            <li class="nav-item"><a href="suggestion" class="nav-link"><span>Suggestion</span></a></li>
             <li class="nav-item"><a href="evaluate" class="nav-link"><span>Evaluate</span></a></li>
 
             <select id="language" class="btn btn-primary focus">
@@ -52,36 +51,46 @@
 	  </nav>
 	  
 	  
-	  
 
     <section class="ftco-section contact-section ftco-no-pb testimony-section" id="contact-section">
       <div class="container">
       	<div class="row justify-content-center pb-3">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate fadeInUp ftco-animated">
-            <span class="subheading">Community colaboration
-              
-            </span>
-            <h2 class="mb-4">Last Releases</h2>
-            <p>Click to download the subtitle and activate the magnetLink (Torrent)</p>
+            <span class="subheading">Community colaboration</span>
+            <h2 class="mb-4">Help us improve our subtitles</h2>
+            <p>Evaluate translation suggestions or suggest new translations and help improve subtitles. All collaboration is public and made by the anime-loving community.</p>
           </div>
         </div>
 
         <div class="row block-9">
 
-
-          <div class="col-md-12">
-            <div class="row contact-info mb-5 suggestions-list">
-              <div class="col-md-12 ftco-animate special-col">                
-
-              </div>  
+          <div class="col-md-5 d-flex">
+            <div class="row d-flex contact-info mb-5 suggestions-list">
+              <!-- INJECT CODE HERE -->
             </div>
-        </div>         
+          </div>
+
+          <div class="col-md-7 order-md-last d-flex ftco-animate">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+              <div class="text-center">
+                  <p class="small-pad">Original Sentence: </p>
+                  <p><b class="original-sentence">"Something is wrong. Sorry!"</b></p>
+              </div>
+              <div class="form-group">
+                <textarea name="" id="suggestion" cols="30" rows="5" class="form-control"></textarea>
+              </div>
+              <div class="form-group text-center ">
+                <input type="submit" value="Send Suggestions" class="btn btn-primary py-3 px-5 btn-m-b">
+                <input type="button" value="That´s OK, NEXT >" class="btn btn-primary py-3 px-5 btn-m-b btn-next-dialogue" onclick="renderNextDialogue()">
+              </div>
+            </form>          
+          </div>
 
         </div>
+
       </div>
     </section>
 
-    
     <footer class="ftco-footer ftco-section">
       <div class="container-fluid px-md-5">
         <div class="row mb-5">
@@ -142,17 +151,17 @@
         </div>
       </div>
     </footer>
-    
-  
-    <script src="js/lib/jquery.min.js"></script>
-    <script src="js/lib/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/lib/bootstrap.min.js"></script>
-    <script src="js/lib/jquery.waypoints.min.js"></script>
-    <script src="js/lib/scrollax.min.js"></script>  
-    <script src="js/lib/main.js"></script>
 
-    <script src="js/titles.js"></script>
-    <script src="js/notification.js"></script>
+
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/lib/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/jquery.waypoints.min.js"></script>
+  <script src="js/lib/scrollax.min.js"></script>  
+  <script src="js/lib/main.js"></script>
+
+  <script src="js/suggestion.js"></script>
+  <script src="js/notification.js"></script>
     
   </body>
 </html>
