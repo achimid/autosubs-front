@@ -182,7 +182,7 @@
 // ===============  CONSTANTS =============== 
 
 	// const API = '/api/v1'
-	const API = 'https://autosubs-api-01.herokuapp.com'
+	const API = 'https://autosubs-api-01.herokuapp.com/api/v1'
 	// const API = 'http://localhost:9002/api/v1'
 
 
