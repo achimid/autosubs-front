@@ -13,6 +13,6 @@ app.use(express.json())
 app.disable('x-powered-by')
 
 app.use(express.static('public', { maxAge, extensions:['html'] }))
-app.use('/api/v1/healthcheck', require('./healthcheck/healthcheck'))
+app.use('/healthcheck', require('./healthcheck/healthcheck'))
 
 app.listen(process.env.PORT)

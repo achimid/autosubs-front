@@ -1,34 +1,27 @@
 {
-  "name": "horriblesubs",
+  "name": "autosubs-front",
   "version": "1.0.0",
   "description": "API to centralize animes subtitles and plugins from web site https://horriblesubs.info/",
   "main": "index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "cluster": "node api/index-cluster.js"
+    "start": "node api/index-cluster.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/achimid/horriblesubs.git"
+    "url": "git+https://github.com/achimid/autosubs-front.git"
   },
   "author": "achimid",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/achimid/horriblesubs/issues"
+    "url": "https://github.com/achimid/autosubs-front/issues"
   },
-  "homepage": "https://github.com/achimid/horriblesubs#readme",
+  "homepage": "https://github.com/achimid/autosubs-front#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "http-status-codes": "^1.4.0",
-    "mongoose": "^5.9.2",
     "node-cron": "^2.0.3",
-    "node-fetch": "^2.6.0",
-    "socket.io": "^2.3.0",
-    "socket.io-client": "^2.3.0",
-    "throng": "^4.0.0",
-    "web-push": "^3.4.3"
+    "node-fetch": "^2.6.0"
   }
 }
