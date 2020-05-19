@@ -20,7 +20,7 @@ function onChangeLanguage() {
 
 // TODO: Melhor e criar um botão para cada
 const onSelectSubtitle = (id) => {
-    location.href = `${API}/api/v1/subtitle/${id}/download`
+    location.href = `${API}/subtitle/${id}/download`
 }
 
 const onSelectLink = (magnetLink) => {
