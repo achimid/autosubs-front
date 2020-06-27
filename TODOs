@@ -9,7 +9,6 @@
 # Linkar as outras aplicações para esse site
 
 # Melhorar decrição do plugin, fazer uma explicação melhor
-# Usar LoadBalancer?
 # Corrigir problema do tamanho da lagenda
 # Gerar uma pagina ou algumas statisticas de quantas legendas e sugestões estão sendo feitas por minuto....
 # Tentar fazer aquele client, para que seja possivel baixar os animes automaticamente e selecionar o que você quer baixar, e ele usa o torrent e build a legenda depois de baixado.
@@ -17,3 +16,14 @@
 # Corrigir problema do tamanho da lagenda, no front, quando o dialogo é muito grande o layout de sugestão fica quebrado
 
 # Configurar Analitics e o Search
+
+* Criar uma pagina para revisão da legenda completa.
+* Na pagina de revisão da legenda, permitir o play da legenda no video, e se necessário selecionar a legenda pelo tempo de exibição.
+* Criar um distinção de uma legenda traduzida automaticamente e de uma legenda revisada.
+* Criar um botão para quando a legenda foi revisada, publicar no openSubstitles;
+* Dividir a homepage em duas abas, uma aba onde é os lançamentos e outra onde é possivel ver um status das importações acontecendo...
+* Criar uma seção para parcerias.
+* Criar um bannner de parcerias.
+* Publicar automaticamente no openSubstitles.
+* Adicionar na legenda, no primeiro minuto, uma descrição do site. "legenda por autosubs.ddns.net"
+* Adicionar no plugin, um player automatico, onde ele permite a exibição baseada no link torrent, e utilizar a legenda fornecida pelo AutoSubs
